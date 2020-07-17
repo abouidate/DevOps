@@ -68,12 +68,3 @@ Jenkins is a self-contained Java-based program, ready to run out-of-the-box, wit
   - `Manage Jenkins` > `Global Tool Configuration` > `JDK`  
 - Create another admin user id
 
-### Test Jenkins Jobs
-1. Create “new item”
-1. Enter an item name – `My-First-Project`
-   - Chose `Freestyle` project
-1. Under the Build section
-	Execute shell: echo "Welcome to Jenkins Demo"
-1. Save your job 
-1. Build job
-1. Check "console output"

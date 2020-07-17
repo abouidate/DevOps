@@ -9,9 +9,9 @@
 1. `Dockerfile` under *`/opt/docker`* on Ansible server **[Get Help Here]()**
    ```sh 
    # Pull tomcat latest image from dockerhub 
-   From tomcat
+   From tomcat:8.5.57-jdk8-corretto
    # Maintainer
-   MAINTAINER "AR Shankar" 
+   MAINTAINER "ABouidate Wadie" 
 
    # copy war file on to container 
    COPY ./webapp.war /usr/local/tomcat/webapps
@@ -62,7 +62,7 @@ Enable connection between Ansible-control-node and Jenkins
      - Copy from: `Deploy_on_Container`
      
    - *Source Code Management:*
-      - Repository: `https://github.com/yankils/hello-world.git`
+      - Repository: `https://github.com/abouidate/DevOps.git`
       - Branches to build : `*/master`  
    - *Poll SCM* :      - `* * * *`
 
